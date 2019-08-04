@@ -1,5 +1,5 @@
 --[[
-	© 2013 CloudSixteen.com do not share, re-distribute or modify
+	Â© 2013 CloudSixteen.com do not share, re-distribute or modify
 	without permission of its author (kurozael@gmail.com).
 --]]
 
@@ -43,7 +43,7 @@ function PLUGIN:PlayerSaveCharacterData(player, data)
 	elseif (data["clothesQualitylegs"]) then
 		data["clothesQualitylegs"] = math.Round(data["clothesQualitylegs"]);
 	elseif (data["clothesQualityhands"]) then
-		data["clothesQualityhands"] = mmath.Round(data["clothesQualityhands"]);
+		data["clothesQualityhands"] = math.Round(data["clothesQualityhands"]);
 	elseif (data["clothesQualityheadgear"]) then
 		data["clothesQualityheadgear"] = math.Round(data["clothesQualityheadgear"]);
 	elseif (data["clothesQualitybag"]) then
